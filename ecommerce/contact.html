@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Contect</title>
+    <section class="logo animate__animated animate__pulse">
+        <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+    </section>
+</head>
+<section class="cart">
+    <a href="">
+        <img src="images/cart.jpeg" alt="cart">
+    </a>
+</section>
+<body>
+    <header>
+        <nav role="navigation">
+            <button class="hamburger" onclick="toggleHamburger()"><img src="images/hamburger.png" alt="hamburger" id="hamburger"></button>
+            <article id="menuToggle">
+              <ul id="menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="products.html"><li>Producs</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+              </ul>
+            </article>
+          </nav>
+    </header>
+    <main>
+        <h1>Connect with us!</h1>
+        <form>
+    <!--       <article class="Contact"> -->
+            <br>
+            <label for="Firstname">First Name</label>
+            <input type="text" name="Firstname" value="Jorge"                     id="Firstname">
+            <br><br>
+            <label for="Lastname">Last Name </label>
+            <input type="text" name="Lastname" value="Medina"                     id="Lastname">
+            <br><br>
+            <label for="email">Email address</label>
+            <input type="text" name="email" value="JorgeMedina@xyz.net"           id="email">
+            <br><br>
+            <label for="Comments">Comments </label>
+            <br><br>
+            <textarea id="Comments" name="extra" rows="3" cols="40">
+            </textarea>
+            <br><br>
+            <input type="submit" value="submit" id="Submit">
+    <!--       </article> -->
+        </form>
+        </main>
+<br><br><br>
+    <footer>
+        <p class="copy">&copy;Jorge Zeledon-Medina</p>
+        <section class="footr" id="footer">
+            <a href="https://www.linkedin.com/"><img class="link"                 alt="Linkedin" src="images/in.webp"></a>
+        <a href="https://www.snapchat.com/en-US"><img src="images/snap.webp" alt="Snap"></a>
+        <a href="https://discord.com/"><img src="images/dis.webp" alt="Discord"></a>
+        <a href="https://www.instagram.com/"><img src="images/instalogo.png" alt="Insta"></a>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
